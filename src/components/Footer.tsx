@@ -45,7 +45,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />
-                <span>{settings?.telepon || '+6281218010605 (Bu Atun) +6289660560744 (Pak Andri)'}</span>
+                <span>{settings?.telepon || '0877-7208-9660 (Pak KIKI) 0857-2202-0124 (Pak Dayat)'}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500 shrink-0" />
