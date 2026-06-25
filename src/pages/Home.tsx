@@ -168,7 +168,7 @@ export default function Home() {
                 ))}
                 <div className="flex items-center gap-4 mt-8">
                   <div className="w-16 h-16 rounded-full bg-slate-200 overflow-hidden">
-                    <img src={settings?.fotoKepalaSekolah || "https://github.com/muhamadsudirja959-lgtm/ppdbsmanefal/blob/c97bb26a146ad42cabde18a32cc69118b71a4bfe/keples.jpg=80&w=256&auto=format&fit=crop"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
+                    <img src={settings?.fotoKepalaSekolah || "ppdbsmanefal/keples.jpg=80&w=256&auto=format&fit=crop"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">{settings?.namaKepalaSekolah || 'Kepala Sekolah'}</h4>
