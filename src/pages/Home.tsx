@@ -168,7 +168,14 @@ export default function Home() {
                 ))}
                 <div className="flex items-center gap-4 mt-8">
                   <div className="w-16 h-16 rounded-full bg-slate-200 overflow-hidden">
-                    <img src={settings?.fotoKepalaSekolah || "/ppdbsmanefal/keples.jpg=80&w=256&auto=format&fit=crop"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
+                    <img
+  src={settings?.fotoKepalaSekolah || "/ppdbsmanefal/keples.jpg"}
+  alt="Kepala Sekolah"
+  className="w-full h-full object-cover"
+  onError={(e) => {
+    e.currentTarget.src = "/ppdbsmanefal/keples.jpg";
+  }}
+/>
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">{settings?.namaKepalaSekolah || 'Kepala Sekolah'}</h4>
