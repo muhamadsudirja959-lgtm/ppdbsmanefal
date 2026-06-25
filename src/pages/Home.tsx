@@ -57,9 +57,9 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6"
             >
-              H.E.B.A.T <br className="hidden md:block" />
+              SMA NEFAL <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500">
-                Hidup dengan Etika, Berakhlak dan Berprestasi
+                Membentuk Pribadi Yang Berakhlak, Kreatif, & Berprestasi
               </span>
             </motion.h1>
             
